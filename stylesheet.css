@@ -1,0 +1,240 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family: "Lucida Grande";
+}
+
+.container{
+    max-width: 1170px;
+    width: 100%;
+    padding:0 15px;
+    margin :0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    background-color:#404146;
+    position :fixed;
+    z-index: 10;
+}
+
+.logo-header{
+    line-height: 65px;
+    float:left;
+    color:white;
+    font-weight: bold;
+    font-size:20px ;
+    letter-spacing: 5px;
+}
+
+.menu-header{
+    float:left;
+    margin-left:25px;
+    font-weight: lighter;
+}
+
+.menu-header a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.menu-header a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper{
+    padding: 180px 0 100px 0;
+    background-size: cover;
+    background-color: white;
+    color: #404146;
+    text-align: center;
+}
+
+.top-wrapper h1{
+    font-size: 100px;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+
+.top-wrapper h2{
+    font-size: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    font-weight: lighter;
+}
+
+.top-wrapper span{
+    color:#edd513;
+}
+
+.top-wrapper img{
+    width:125px;
+}
+
+.middle-wrapper{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f4f4f4;
+    text-align: center;
+    color:#404146;
+}
+
+.middle-wrapper p{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-wrapper{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: white;
+    text-align: center;
+    Justify-content: space-evenly;
+   
+    
+}
+
+.project-wrapper h1{
+    font-weight:bold;
+    color:#404146;
+}
+
+.project-item{
+    float:left;
+    width: 25%;
+    margin:35px;
+
+
+}
+
+.project-image{
+    position: relative;
+    margin:0 auto;
+    
+}
+
+
+.project-image img{
+    width: 200px;
+    
+}
+
+
+.text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #404146;
+}
+
+.clear{
+    clear:left;
+}
+
+.contact-wrapper{
+    padding-top:60px;
+    padding-bottom: 60px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contact-wrapper h1{
+    font-weight: bold;
+    color:#404146;
+    text-align: center;
+}
+
+textarea {
+    border: 2px solid #ccc;
+    font-family: "Lucida Grande";
+    color:#ccc;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    outline: none;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+textarea:focus {
+    border-color: #1a1fbc;
+}
+  
+
+footer{
+    width:100%;
+    background-color: #7c7d80;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.logo-footer{
+    float:left;
+    color:white;
+    font-weight: bold;
+    font-size:20px ;
+    letter-spacing: 5px;
+}
+
+.menu-footer{
+    font-weight: lighter;
+}
+
+.menu-footer a{
+    text-align: right;
+    color: white;
+    display: block;
+}
+
+.btn {
+    padding: 10px 24px;
+    margin:20px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+.btn:hover {
+    opacity: 1;
+  }
+
+.kirim{
+    padding: 15px 20%;
+    background-color: #f7e889;
+    cursor: pointer;
+} 
+
+.kirim:active{
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+ }
